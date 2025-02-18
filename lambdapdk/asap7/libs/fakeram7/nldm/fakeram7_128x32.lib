@@ -88,7 +88,7 @@ library(fakeram7_128x32) {
         downto : true ;
     }
 cell(fakeram7_128x32) {
-    area : 171.993;
+    area : 528.640;
     interface_timing : true;
     memory() {
         type : ram;

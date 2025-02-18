@@ -10,7 +10,7 @@ def register_data_source(chip):
         chip,
         "lambdapdk",
         "lambdapdk",
-        "https://github.com/siliconcompiler/lambdapdk/archive/refs/tags/",
+        "https://github.com/christiaanb/lambdapdk/archive/refs/tags/",
         alternative_ref=f"v{__version__}",
         python_module_path_append=".."
     )
@@ -99,7 +99,7 @@ def get_libs():
 
 
 def get_docs_codeurl(file=None):
-    base_url = f"https://github.com/siliconcompiler/lambdapdk/blob/v{__version__}"
+    base_url = f"https://github.com/christiaanb/lambdapdk/blob/v{__version__}"
 
     if not file:
         return base_url
