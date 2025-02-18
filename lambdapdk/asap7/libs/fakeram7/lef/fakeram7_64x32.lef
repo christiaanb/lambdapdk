@@ -12,7 +12,7 @@ MACRO fakeram7_64x32
   PROPERTY banks 2 ;
   FOREIGN fakeram7_64x32 0 0 ;
   SYMMETRY X Y R90 ;
-  SIZE 8.360 BY 11.200 ;
+  SIZE 19.038 BY 25.760 ;
   CLASS BLOCK ;
   PIN w_mask_in[0]
     DIRECTION INPUT ;
